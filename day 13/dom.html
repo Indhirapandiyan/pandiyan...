@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="firstDiv">
+
+    </div>
+    <div id="secondDiv">
+
+    </div>
+    <div id="thirdDiv">
+
+    </div>
+    
+
+
+    <script>
+        
+
+        let header=document.createElement('h1');
+
+        header.textContent='Heading Dynamic';
+
+        document.body.appendChild(header);
+
+        let paragraph=document.createElement('p');
+
+        paragraph.textContent='This is the dynamicaly created paragraph element';
+
+        document.body.appendChild(paragraph);
+
+        // document.body.append(paragraph,header)
+
+        document.getElementById('firstDiv').append(paragraph,header);
+
+        let link=document.createElement('a');
+
+        link.href='https://www.google.com';
+
+        link.textContent='visit web page';
+
+        document.getElementById('secondDiv').appendChild(link);
+
+        let googleLogo=document.createElement('img');
+
+        googleLogo.setAttribute('src','https://www.vecteezy.com/png/10853156-heart-abstract-love-symbol-continuous-line-art-drawing-illustration-valentines-day-background-banner');
+
+        googleLogo.setAttribute('alt','Heart Logo');
+
+        document.getElementById('thirdDiv').appendChild(googleLogo);
+
+        document.getElementById('thirdDiv').innerHTML=`<h1>Coffee List</h1>
+        <ul>
+            <li>coffee</li>
+            <li>tea</li>
+            <li>black tea</li>
+            <li>black coffee</li>
+            </ul>`
+    </script>
+</body>
+</html>
