@@ -1,0 +1,19 @@
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(121, 193, 193);
+    color: brown;
+    padding: 10px;
+    text-align: center;
+}
+body{
+    padding-top: 100px;
+    text-align: center;
+}
+main{
+ overflow-y: scroll;
+ overflow-x: scroll;
+ height: 200px;
+}

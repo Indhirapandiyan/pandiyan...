@@ -1,0 +1,22 @@
+/* a{
+    text-decoration: none;
+} */
+ul{
+    color:brown;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+a:active{
+    color: rgb(165, 42, 147);
+}
+.button:hover{
+    background-color: aqua;
+}
+.button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    background-color:rgb(55, 55, 202);
+    
+}

@@ -1,0 +1,14 @@
+.but:hover{
+    background-color:rgb(88, 88, 219) ;
+    color: rgb(216, 114, 114);
+}
+.but:active{
+    background-color: green;
+}
+a:visited{
+    color: aquamarine;
+    text-decoration: none;
+}
+a:link{
+    color: blueviolet;
+}

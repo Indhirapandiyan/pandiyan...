@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html & Css</title>
+    <style>
+        body{
+            padding: 20px;
+        }
+        .grandparent{
+            padding: inherit;
+            border: 3px solid black;
+        }
+        .parent{
+            padding: inherit;
+            border: inherit;
+        }
+        .child{
+            padding: inherit;
+            border: inherit;
+        }
+    </style>
+</head>
+<body>
+    <h2>Parent Inherit</h2>
+    <div class="grandparent">
+        <p>This is the grandparent element</p>
+        <div class="parent">
+            <p>This is the parent element</p>
+            <div class="child">
+                <p>This is the child element</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
